@@ -1,0 +1,30 @@
+{
+    "name": "alwayscurious/wonderwords",
+    "description": "A wonderful way to generate random words, phrases, and sentences from curated word lists.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlwaysCurious.co",
+            "homepage": "https://alwayscurious.co"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlwaysCurious\\WonderWords\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlwaysCurious\\WonderWords\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
